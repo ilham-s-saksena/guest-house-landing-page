@@ -1,0 +1,23 @@
+{
+  "name": "guest-house",
+  "version": "1.0.0",
+  "description": "Ini adalah proyek sederhana untuk sebuah landing page website Guest House. Proyek ini menggunakan **Tailwind CSS** sebagai framework styling dan **Flowbite** untuk beberapa komponen UI interaktif. File ini terdiri dari `index.html`, yang dirancang untuk dijalankan menggunakan Live Server.",
+  "main": "tailwind.config.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "flowbite": "^2.5.2",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17"
+  },
+  "scripts": {
+    "watch:css"	: "postcss -i lib/main.css -o dist/main.css --watch",
+    "start": "concurrently \"npm run watch:css\" \"live-server --watch=index.html\"",
+    "deploy": ""
+  },
+  "keywords": [],
+  "author": "Ilham Sidik Saksena",
+  "license": "ISC"
+}
