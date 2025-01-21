@@ -1,0 +1,38 @@
+[data-aos="fade-up"].aos-animate {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 1s ease-in-out, transform 0.5s ease-in-out;
+}
+
+[data-aos="fade-up"] {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1s ease-in-out, transform 0.5s ease-in-out;
+}
+
+[data-aos="fade-up"].aos-animate.aos-out {
+  opacity: 0;
+  transform: translateY(-20px);
+}
+
+.package-item:hover {
+  transform: scale(1.1);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+}
+.package-item:not(:hover) {
+  transform: scale(1);
+  z-index: 1;
+}
+
+/* Nonaktifkan animasi di tampilan mobile */
+@media (max-width: 768px) {
+  .no-animation {
+    animation: none !important;
+    transition: none !important;
+  }
+  .package-item {
+    transform: none !important;
+    box-shadow: none !important;
+  }
+}
