@@ -3,6 +3,7 @@ module.exports = {
   content: [
     "*.html",
     "./node_modules/flowbite/**/*.js",
+    "./node_modules/flowbite-typography/**/*.js",
     "./dist/*.js"
   ],
   theme: {
@@ -27,6 +28,10 @@ module.exports = {
   },
   plugins: [
     require('flowbite/plugin'),
+    require('flowbite-typography'),
+    require('flowbite/plugin')({
+      wysiwyg: true,
+  }),
   ],
 }
 

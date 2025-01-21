@@ -13,11 +13,17 @@
     "tailwindcss": "^3.4.17"
   },
   "scripts": {
-    "watch:css"	: "postcss -i lib/main.css -o dist/main.css --watch",
+    "watch:css": "postcss -i lib/main.css -o dist/main.css --watch",
     "start": "concurrently \"npm run watch:css\" \"live-server --watch=index.html\"",
     "deploy": ""
   },
   "keywords": [],
   "author": "Ilham Sidik Saksena",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@tiptap/core": "^2.10.4",
+    "@tiptap/pm": "^2.10.4",
+    "@tiptap/starter-kit": "^2.10.4",
+    "flowbite-typography": "^1.0.5"
+  }
 }
