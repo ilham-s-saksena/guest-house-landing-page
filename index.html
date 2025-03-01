@@ -354,128 +354,41 @@
       <section
         class="bg-gradient-to-b from-primary-700 via-white to-white relative w-full"
       >
-        <ul
-          class="grid grid-cols-2 lg:grid-cols-5 gap-4 items-center w-full max-w-6xl bg-white px-5 py-8 rounded-xl -mt-52 lg:-mt-16 absolute left-1/2 -translate-x-1/2"
-        >
-          <li class="space-y-2">
-            <div class="flex items-center space-x-1">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="currentColor"
-                class="size-5 text-primary-800"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M4.098 19.902a3.75 3.75 0 0 0 5.304 0l6.401-6.402M6.75 21A3.75 3.75 0 0 1 3 17.25V4.125C3 3.504 3.504 3 4.125 3h5.25c.621 0 1.125.504 1.125 1.125v4.072M6.75 21a3.75 3.75 0 0 0 3.75-3.75V8.197M6.75 21h13.125c.621 0 1.125-.504 1.125-1.125v-5.25c0-.621-.504-1.125-1.125-1.125h-4.072M10.5 8.197l2.88-2.88c.438-.439 1.15-.439 1.59 0l3.712 3.713c.44.44.44 1.152 0 1.59l-2.879 2.88M6.75 17.25h.008v.008H6.75v-.008Z"
-                />
-              </svg>
-              <label for="" class="text-sm md:text-md">Room Type</label>
-            </div>
-            <select
-              name=""
-              id=""
-              class="text-sm md:text-md w-full border-t-0 border-l-0 border-r-0 border-b-1 border-primary-400 bg-primary-50 rounded-t-lg"
-            >
-              <option value="">Basic</option>
-              <option value="">VIP</option>
-              <option value="">VVIP</option>
+      <form id="checkForm" class="grid grid-cols-2 lg:grid-cols-5 gap-4 items-center w-full max-w-6xl bg-white px-5 py-8 rounded-xl -mt-52 lg:-mt-16 absolute left-1/2 -translate-x-1/2">
+        <li class="space-y-2">
+            <label class="text-sm md:text-md" for="roomType">Room Type</label>
+            <select name="roomType" id="roomType" class="w-full border-t-0 border-l-0 border-r-0 border-b-1 border-primary-400 bg-primary-50 rounded-t-lg">
+                <option value="24 Jam">24 Jam</option>
+                <option value="6 Jam">6 Jam</option>
             </select>
-          </li>
-
-          <li class="space-y-2">
-            <div class="flex items-center space-x-1">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="currentColor"
-                class="size-5 text-primary-800"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z"
-                />
-              </svg>
-              <label for="" class="text-sm md:text-md">Person</label>
-            </div>
-            <select
-              name=""
-              id=""
-              class="text-sm md:text-md w-full border-t-0 border-l-0 border-r-0 border-b-1 border-primary-400 bg-primary-50 rounded-t-lg"
-            >
-              <option value="">1 Person</option>
-              <option value="" selected>2 Person</option>
-              <option value="">3 Person</option>
-              <option value="">4 Person</option>
+        </li>
+    
+        <li class="space-y-2">
+            <label class="text-sm md:text-md" for="person">Person</label>
+            <select name="person" id="person" class="w-full border-t-0 border-l-0 border-r-0 border-b-1 border-primary-400 bg-primary-50 rounded-t-lg">
+                <option value="1 - 5 Person" selected>1 - 5 Person</option>
+                <option value="6 - 8 Person">6 - 8 Person</option>
+                <option value="> 10 Person">> 10 Person</option>
             </select>
-          </li>
-
-          <li class="space-y-2">
-            <div class="flex items-center space-x-1">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="currentColor"
-                class="size-5 text-primary-800"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5m-9-6h.008v.008H12v-.008ZM12 15h.008v.008H12V15Zm0 2.25h.008v.008H12v-.008ZM9.75 15h.008v.008H9.75V15Zm0 2.25h.008v.008H9.75v-.008ZM7.5 15h.008v.008H7.5V15Zm0 2.25h.008v.008H7.5v-.008Zm6.75-4.5h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008V15Zm0 2.25h.008v.008h-.008v-.008Zm2.25-4.5h.008v.008H16.5v-.008Zm0 2.25h.008v.008H16.5V15Z"
-                />
-              </svg>
-              <label for="" class="text-sm md:text-md">Check-In</label>
-            </div>
-            <input
-              type="date"
-              name=""
-              id=""
-              class="text-sm md:text-md w-full border-t-0 border-l-0 border-r-0 border-b-1 border-primary-400 bg-primary-50 rounded-t-lg"
-            />
-          </li>
-
-          <li class="space-y-2">
-            <div class="flex items-center space-x-1">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="currentColor"
-                class="size-5 text-primary-800"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5m-9-6h.008v.008H12v-.008ZM12 15h.008v.008H12V15Zm0 2.25h.008v.008H12v-.008ZM9.75 15h.008v.008H9.75V15Zm0 2.25h.008v.008H9.75v-.008ZM7.5 15h.008v.008H7.5V15Zm0 2.25h.008v.008H7.5v-.008Zm6.75-4.5h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008V15Zm0 2.25h.008v.008h-.008v-.008Zm2.25-4.5h.008v.008H16.5v-.008Zm0 2.25h.008v.008H16.5V15Z"
-                />
-              </svg>
-              <label for="" class="text-sm md:text-md">Check-Out</label>
-            </div>
-            <input
-              type="date"
-              name=""
-              id=""
-              class="text-sm md:text-md w-full border-t-0 border-l-0 border-r-0 border-b-1 border-primary-400 bg-primary-50 rounded-t-lg"
-            />
-          </li>
-
-          <li class="space-y-2 grid col-span-2 lg:col-span-1">
-            <button
-              class="px-2.5 py-4 font-bold text-white bg-primary-700 rounded-lg"
-            >
-              Check Availability
+        </li>
+    
+        <li class="space-y-2">
+            <label class="text-sm md:text-md" for="checkIn">Check-In</label>
+            <input type="date" name="checkIn" id="checkIn" class="w-full border-t-0 border-l-0 border-r-0 border-b-1 border-primary-400 bg-primary-50 rounded-t-lg" />
+        </li>
+    
+        <li class="space-y-2">
+            <label class="text-sm md:text-md" for="checkOut">Check-Out</label>
+            <input type="date" name="checkOut" id="checkOut" class="w-full border-t-0 border-l-0 border-r-0 border-b-1 border-primary-400 bg-primary-50 rounded-t-lg" />
+        </li>
+    
+        <li class="space-y-2 grid col-span-2 lg:col-span-1">
+            <button type="submit" class="px-2.5 py-4 font-bold text-white bg-primary-700 rounded-lg">
+                Check Availability
             </button>
-          </li>
-        </ul>
+        </li>
+    </form>
+    
 
         <section class="pt-24">
           <div
@@ -561,7 +474,7 @@
             <p
               class="mb-6 font-light text-gray-500 dark:text-gray-400 md:text-lg"
             >
-              Try Flowbite Platform for 30 days. No credit card required.
+              Pilih Sesuai Kebutuhanmu!
             </p>
           </div>
           <ul
@@ -570,59 +483,47 @@
             <li
               class="package-item rounded-xl shadow-lg pb-3 flex flex-col items-center text-center transition-all duration-300 bg-white"
             >
-              <img src="img/1.jpg" alt="" class="w-full rounded-xl" />
-              <h2 class="text-2xl text-center font-bold mt-5 mb-3">Basic</h2>
+              <div class="w-full h-80 bg-cover bg-center rounded-xl" style="background-image: url('img/cta/3.jpeg');" ></div>
+              <h2 class="text-2xl text-center font-bold mt-5 mb-3" id="priceTitle1"></h2>
               <h3 class="mb-3">
-                <span class="text-2xl font-bold">$150/</span> Per Night
+                <span class="text-2xl font-bold" id="price1"></span>
               </h3>
-              <p class="mb-2">free wifi</p>
-              <p class="mb-2">breakfast</p>
-              <p class="mb-2">1 beds in room</p>
-              <p class="mb-4">2 people in room</p>
-              <button
+              <a href="https://api.whatsapp.com/send/?phone=6282221259022&text=Halo%2C+saya+tertarik+untuk+memesan+layanan+Ardisan+Guest+House+*24+Jam*.+Apakah+layanan+ini+masih+tersedia%3F+Mohon+informasinya+lebih+lanjut.+Terima+kasih%21&type=phone_number&app_absent=0" target="_blank"
                 type="button"
                 class="text-white bg-primary-700 hover:bg-primary-800 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-5 focus:ring-4 focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 focus:outline-none dark:focus:ring-primary-800"
               >
                 Select Package
-              </button>
+              </a>
             </li>
             <li
               class="package-item rounded-xl shadow-lg pb-3 flex flex-col items-center text-center transition-all duration-300"
             >
-              <img src="img/1.jpg" alt="" class="w-full rounded-xl" />
-              <h2 class="text-xl text-center font-bold mt-5 mb-3">VIP</h2>
+              <div class="w-full h-80 bg-cover bg-center rounded-xl" style="background-image: url('img/cta/4.jpeg');" ></div>
+              <h2 class="text-xl text-center font-bold mt-5 mb-3" id="priceTitle2"></h2>
               <h3 class="mb-3">
-                <span class="text-2xl font-bold">$175/</span> Per Night
+                <span class="text-2xl font-bold" id="price2"></span>
               </h3>
-              <p class="mb-2">free wifi</p>
-              <p class="mb-2">breakfast</p>
-              <p class="mb-2">1 beds in room</p>
-              <p class="mb-4">2 people in room</p>
-              <button
+              <a href="https://api.whatsapp.com/send/?phone=6282221259022&text=Halo%2C+saya+tertarik+untuk+memesan+layanan+Ardisan+Guest+House+*6+Jam*.+Apakah+layanan+ini+masih+tersedia%3F+Mohon+informasinya+lebih+lanjut.+Terima+kasih%21&type=phone_number&app_absent=0" target="_blank"
                 type="button"
                 class="text-white bg-primary-700 hover:bg-primary-800 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-5 focus:ring-4 focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 focus:outline-none dark:focus:ring-primary-800"
               >
                 Select Package
-              </button>
+              </a>
             </li>
             <li
               class="package-item rounded-xl shadow-lg pb-3 flex flex-col items-center text-center transition-all duration-300"
             >
-              <img src="img/1.jpg" alt="" class="w-full rounded-xl" />
-              <h2 class="text-xl text-center font-bold mt-5 mb-3">VVIP</h2>
+              <div class="w-full h-80 bg-cover bg-center rounded-xl" style="background-image: url('img/cta/5.jpeg');" ></div>
+              <h2 class="text-xl text-center font-bold mt-5 mb-3" id="priceTitle3"></h2>
               <h3 class="mb-3">
-                <span class="text-2xl font-bold">$200/</span> Per Night
+                <span class="text-2xl font-bold" id="price3"></span>
               </h3>
-              <p class="mb-2">free wifi</p>
-              <p class="mb-2">breakfast</p>
-              <p class="mb-2">2 beds in room</p>
-              <p class="mb-4">4 people in room</p>
-              <button
+              <a href="https://api.whatsapp.com/send/?phone=6282221259022&text=Halo%2C+saya+tertarik+untuk+memesan+layanan+Ardisan+Guest+House+*Extra+Bed*.+Apakah+layanan+ini+masih+tersedia%3F+Mohon+informasinya+lebih+lanjut.+Terima+kasih%21&type=phone_number&app_absent=0" target="_blank"
                 type="button"
                 class="text-white bg-primary-700 hover:bg-primary-800 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-5 focus:ring-4 focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 focus:outline-none dark:focus:ring-primary-800"
               >
                 Select Package
-              </button>
+              </a>
             </li>
           </ul>
         </div>
@@ -634,138 +535,53 @@
             <h2
               class="mb-4 text-4xl tracking-tight font-extrabold leading-tight dark:text-white"
             >
-              Our Latest Blog & News
+              Rules and Reservation
             </h2>
             <p class="font-light dark:text-gray-400 md:text-lg">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
-              odio atque tempora voluptatum nisi a aliquid nulla.
+              Panduan Lengkap Reservasi dan Aturan Menginap: Nikmati Kenyamanan Maksimal dengan Mengikuti Prosedur yang Telah Ditentukan
             </p>
           </div>
 
           <div class="mx-auto max-w-6xl grid grid-cols-1 md:grid-cols-2 gap-8">
             <!--Card 1-->
-            <div class="flex max-w-3xl flex-col items-start justify-between">
+            <a href="" class="flex max-w-3xl flex-col items-start justify-between bg-primary-50 rounded shadow ">
               <div class="overflow-hidden">
                 <div class="p-3">
                   <img
-                    src="img/2.jpg"
+                    src="img/reservasi.jpeg"
                     alt="Remarkable Resort"
                     class="w-full rounded-md"
                   />
                 </div>
                 <div class="p-4">
-                  <div
-                    class="flex items-center space-x-4 text-lg font-bold mb-6 mt-3"
-                  >
-                    <div class="flex items-center">
-                      <div class="rounded-full bg-brown p-4 mr-3">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          viewBox="0 0 24 24"
-                          fill="#593939"
-                          class="size-6"
-                        >
-                          <path
-                            d="M12.75 12.75a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM7.5 15.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5ZM8.25 17.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM9.75 15.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5ZM10.5 17.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM12 15.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5ZM12.75 17.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM14.25 15.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5ZM15 17.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM16.5 15.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5ZM15 12.75a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM16.5 13.5a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Z"
-                          />
-                          <path
-                            fill-rule="evenodd"
-                            d="M6.75 2.25A.75.75 0 0 1 7.5 3v1.5h9V3A.75.75 0 0 1 18 3v1.5h.75a3 3 0 0 1 3 3v11.25a3 3 0 0 1-3 3H5.25a3 3 0 0 1-3-3V7.5a3 3 0 0 1 3-3H6V3a.75.75 0 0 1 .75-.75Zm13.5 9a1.5 1.5 0 0 0-1.5-1.5H5.25a1.5 1.5 0 0 0-1.5 1.5v7.5a1.5 1.5 0 0 0 1.5 1.5h13.5a1.5 1.5 0 0 0 1.5-1.5v-7.5Z"
-                            clip-rule="evenodd"
-                          />
-                        </svg>
-                      </div>
-
-                      20-04-2021
-                    </div>
-                    <div class="flex items-center">
-                      <div class="rounded-full bg-blue-profile p-4 mr-3">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          viewBox="0 0 24 24"
-                          fill="#144069"
-                          class="size-6"
-                        >
-                          <path
-                            fill-rule="evenodd"
-                            d="M7.5 6a4.5 4.5 0 1 1 9 0 4.5 4.5 0 0 1-9 0ZM3.751 20.105a8.25 8.25 0 0 1 16.498 0 .75.75 0 0 1-.437.695A18.683 18.683 0 0 1 12 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 0 1-.437-.695Z"
-                            clip-rule="evenodd"
-                          />
-                        </svg>
-                      </div>
-                      BY CREATOR
-                    </div>
-                  </div>
+                  
                   <h2 class="text-lg font-bold mb-2">
-                    Remarkable Resort That Offer The Best Of Views!
+                    Cara Mudah Melakukan Reservasi di Ardisan Guest House
                   </h2>
                   <p class="text-gray-600 text-sm">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. At
-                    aliquet at purus a elementum, sem enim quis vestibulum.
+                    Ikuti langkah-langkah praktis untuk memesan kamar dan nikmati fasilitas terbaik dengan proses reservasi yang cepat, aman, dan transparan.
                   </p>
                 </div>
               </div>
-            </div>
+            </a>
 
             <!--Card 2-->
-            <div class="flex max-w-3xl flex-col items-start justify-between">
+            <div class="flex max-w-3xl flex-col items-start justify-between bg-primary-50 shadow">
               <div class="overflow-hidden">
                 <div class="p-3">
                   <img
-                    src="img/1.jpg"
+                    src="img/rules.jpeg"
                     alt="Villas In Nashik"
                     class="w-full rounded-md"
                   />
                 </div>
                 <div class="p-4">
-                  <div
-                    class="flex items-center space-x-4 text-lg font-bold mb-6 mt-3"
-                  >
-                    <div class="flex items-center">
-                      <div class="rounded-full bg-brown p-4 mr-3">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          viewBox="0 0 24 24"
-                          fill="#593939"
-                          class="size-6"
-                        >
-                          <path
-                            d="M12.75 12.75a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM7.5 15.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5ZM8.25 17.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM9.75 15.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5ZM10.5 17.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM12 15.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5ZM12.75 17.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM14.25 15.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5ZM15 17.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM16.5 15.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5ZM15 12.75a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM16.5 13.5a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Z"
-                          />
-                          <path
-                            fill-rule="evenodd"
-                            d="M6.75 2.25A.75.75 0 0 1 7.5 3v1.5h9V3A.75.75 0 0 1 18 3v1.5h.75a3 3 0 0 1 3 3v11.25a3 3 0 0 1-3 3H5.25a3 3 0 0 1-3-3V7.5a3 3 0 0 1 3-3H6V3a.75.75 0 0 1 .75-.75Zm13.5 9a1.5 1.5 0 0 0-1.5-1.5H5.25a1.5 1.5 0 0 0-1.5 1.5v7.5a1.5 1.5 0 0 0 1.5 1.5h13.5a1.5 1.5 0 0 0 1.5-1.5v-7.5Z"
-                            clip-rule="evenodd"
-                          />
-                        </svg>
-                      </div>
-
-                      20-04-2021
-                    </div>
-                    <div class="flex items-center">
-                      <div class="rounded-full bg-blue-profile p-4 mr-3">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          viewBox="0 0 24 24"
-                          fill="#144069"
-                          class="size-6"
-                        >
-                          <path
-                            fill-rule="evenodd"
-                            d="M7.5 6a4.5 4.5 0 1 1 9 0 4.5 4.5 0 0 1-9 0ZM3.751 20.105a8.25 8.25 0 0 1 16.498 0 .75.75 0 0 1-.437.695A18.683 18.683 0 0 1 12 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 0 1-.437-.695Z"
-                            clip-rule="evenodd"
-                          />
-                        </svg>
-                      </div>
-                      BY CREATOR
-                    </div>
-                  </div>
+                  
                   <h2 class="text-lg font-bold mb-2">
-                    Villas In Nashik That Are Good
+                    Aturan Menginap di Guest House: Demi Kenyamanan Bersama
                   </h2>
                   <p class="text-gray-600 text-sm">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. At
-                    aliquet at purus a elementum, sem enim quis vestibulum.
+                    Pahami peraturan dan tata tertib yang berlaku untuk memastikan pengalaman menginap Anda tetap aman, nyaman, dan menyenangkan bagi semua tamu.
                   </p>
                 </div>
               </div>
@@ -1098,14 +914,8 @@
             </h2>
 
             <!-- Content Section -->
-            <p class="mb-6 font-light text-white dark:text-gray-400 md:text-lg">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet
-              fuga, rerum velit laboriosam asperiores officiis illum nisi
-              inventore, nam voluptatibus, fugiat earum corrupti qui dicta
-              cumque mollitia recusandae quia? Porro, cumque veritatis. Nemo,
-              reprehenderit. Deserunt incidunt cumque soluta dolorem, impedit
-              eos ratione eveniet, excepturi reiciendis, laudantium libero ipsa
-              inventore obcaecati.
+            <p id="about" class="mb-6 font-light text-white dark:text-gray-400 md:text-lg">
+              Selamat datang di Ardisan Guesthouse, sebuah guesthouse dengan kolam renang pribadi yang terletak di Purwokerto. Kami menyediakan tempat yang sempurna bagi Anda yang ingin menikmati waktu berkualitas atau me time tanpa gangguan
             </p>
           </div>
 
@@ -1131,7 +941,7 @@
                   />
                 </svg>
               </div>
-              <div class="text-2xl font-bold text-primary-800">248+</div>
+              <div class="text-2xl font-bold text-primary-800">50+</div>
               <p class="text-gray-600">Member</p>
             </div>
             <div class="text-center rounded-lg shadow-md p-6 bg-white">
@@ -1152,8 +962,8 @@
                   />
                 </svg>
               </div>
-              <div class="text-2xl font-bold text-primary-800">4.860+</div>
-              <p class="text-gray-600">Customers</p>
+              <div class="text-2xl font-bold text-primary-800">500+</div>
+              <p class="text-gray-600">Pengunjung Bahagia</p>
             </div>
             <div class="text-center rounded-lg shadow-md p-6 bg-white">
               <div class="flex justify-center">
@@ -1171,7 +981,7 @@
                   />
                 </svg>
               </div>
-              <div class="text-2xl font-bold text-primary-800">167+</div>
+              <div class="text-2xl font-bold text-primary-800">3</div>
               <p class="text-gray-600">Rooms</p>
             </div>
           </div>
@@ -1183,18 +993,15 @@
             <h2
               class="mb-4 text-4xl tracking-tight font-extrabold leading-tight text-gray-900 dark:text-white"
             >
-              Why Us?
+              Why Choose Ardisan Guesthouse?
             </h2>
             <p class="font-light text-gray-600 mb-6">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Similique nemo, facere dolorem aspernatur ab sapiente beatae
-              cumque vero illo doloribus numquam tenetur! Autem quo eos itaque
-              laudantium ullam, quibusdam pariatur.
+              Temukan kenyamanan dan pengalaman menginap yang tak terlupakan di Ardisan Guesthouse. Kami hadir dengan fasilitas lengkap dan pelayanan profesional untuk setiap kebutuhan Anda.
             </p>
           </div>
 
           <!-- Card Section -->
-          <div class="grid grid-cols-1 md:grid-cols-4 gap-6 p-6">
+          <div class="grid grid-cols-1 md:grid-cols-4 gap-6 p-6" id="whyUs">
             <div class="bg-white p-6 rounded-lg shadow-md text-center">
               <div class="text-4xl mb-4">👩‍💼</div>
               <h3 class="font-semibold text-lg text-gray-800">
@@ -1249,140 +1056,9 @@
             data-accordion="collapse"
             class="bg-white"
           >
-            <h2 id="accordion-collapse-heading-1">
-              <button
-                type="button"
-                class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-200 rounded-t-xl dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3"
-                data-accordion-target="#accordion-collapse-body-1"
-                aria-expanded="true"
-                aria-controls="accordion-collapse-body-1"
-              >
-                <span>What is Flowbite?</span>
-                <svg
-                  data-accordion-icon
-                  class="w-3 h-3 rotate-180 shrink-0"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 10 6"
-                >
-                  <path
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M9 5 5 1 1 5"
-                  />
-                </svg>
-              </button>
-            </h2>
-            <div
-              id="accordion-collapse-body-1"
-              class="hidden"
-              aria-labelledby="accordion-collapse-heading-1"
-            >
-              <div
-                class="p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900"
-              >
-                <p class="mb-2 text-gray-500 dark:text-gray-400">
-                  Flowbite is an open-source library of interactive components
-                  built on top of Tailwind CSS including buttons, dropdowns,
-                  modals, navbars, and more.
-                </p>
-                <p class="text-gray-500 dark:text-gray-400">
-                  Check out this guide to learn how to
-                  <a
-                    href="/docs/getting-started/introduction/"
-                    class="text-blue-600 dark:text-blue-500 hover:underline"
-                    >get started</a
-                  >
-                  and start developing websites even faster with components on
-                  top of Tailwind CSS.
-                </p>
-              </div>
-            </div>
-            <h2 id="accordion-collapse-heading-2">
-              <button
-                type="button"
-                class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-200 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3"
-                data-accordion-target="#accordion-collapse-body-2"
-                aria-expanded="false"
-                aria-controls="accordion-collapse-body-2"
-              >
-                <span>Is there a Figma file available?</span>
-                <svg
-                  data-accordion-icon
-                  class="w-3 h-3 rotate-180 shrink-0"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 10 6"
-                >
-                  <path
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M9 5 5 1 1 5"
-                  />
-                </svg>
-              </button>
-            </h2>
-            <div
-              id="accordion-collapse-body-2"
-              class="hidden"
-              aria-labelledby="accordion-collapse-heading-2"
-            >
-              <div
-                class="p-5 border border-b-0 border-gray-200 dark:border-gray-700"
-              >
-                <p class="mb-2 text-gray-500 dark:text-gray-400">
-                  Flowbite is first conceptualized and designed using the Figma
-                  software so everything you see in the library has a design
-                  equivalent in our Figma file.
-                </p>
-                <p class="text-gray-500 dark:text-gray-400">
-                  Check out the
-                  <a
-                    href="https://flowbite.com/figma/"
-                    class="text-blue-600 dark:text-blue-500 hover:underline"
-                    >Figma design system</a
-                  >
-                  based on the utility classes from Tailwind CSS and components
-                  from Flowbite.
-                </p>
-              </div>
-            </div>
-            <h2 id="accordion-collapse-heading-3">
-              <button
-                type="button"
-                class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-gray-200 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 gap-3"
-                data-accordion-target="#accordion-collapse-body-3"
-                aria-expanded="false"
-                aria-controls="accordion-collapse-body-3"
-              >
-                <span
-                  >What are the differences between Flowbite and Tailwind
-                  UI?</span
-                >
-                <svg
-                  data-accordion-icon
-                  class="w-3 h-3 rotate-180 shrink-0"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 10 6"
-                >
-                  <path
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M9 5 5 1 1 5"
-                  />
-                </svg>
-              </button>
-            </h2>
+            
+            
+            
             <div
               id="accordion-collapse-body-3"
               class="hidden"
@@ -1391,37 +1067,9 @@
               <div
                 class="p-5 border border-t-0 border-gray-200 dark:border-gray-700"
               >
-                <p class="mb-2 text-gray-500 dark:text-gray-400">
-                  The main difference is that the core components from Flowbite
-                  are open source under the MIT license, whereas Tailwind UI is
-                  a paid product. Another difference is that Flowbite relies on
-                  smaller and standalone components, whereas Tailwind UI offers
-                  sections of pages.
-                </p>
-                <p class="mb-2 text-gray-500 dark:text-gray-400">
-                  However, we actually recommend using both Flowbite, Flowbite
-                  Pro, and even Tailwind UI as there is no technical reason
-                  stopping you from using the best of two worlds.
-                </p>
-                <p class="mb-2 text-gray-500 dark:text-gray-400">
-                  Learn more about these technologies:
-                </p>
+                
                 <ul class="ps-5 text-gray-500 list-disc dark:text-gray-400">
-                  <li>
-                    <a
-                      href="https://flowbite.com/pro/"
-                      class="text-blue-600 dark:text-blue-500 hover:underline"
-                      >Flowbite Pro</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="https://tailwindui.com/"
-                      rel="nofollow"
-                      class="text-blue-600 dark:text-blue-500 hover:underline"
-                      >Tailwind UI</a
-                    >
-                  </li>
+                  
                 </ul>
               </div>
             </div>
@@ -1429,7 +1077,7 @@
           <!-- Social Media Icons -->
           <div class="flex justify-center mt-8 space-x-4">
             <a
-              href="https://www.facebook.com"
+              href="https://www.facebook.com/share/19uGkwDJQx/"
               target="_blank"
               class="text-gray-500 hover:text-gray-900 dark:hover:text-white"
             >
@@ -1444,24 +1092,9 @@
                 />
               </svg>
             </a>
+            
             <a
-              href="https://www.twitter.com"
-              target="_blank"
-              class="text-gray-500 hover:text-gray-900 dark:hover:text-white"
-            >
-              <svg
-                class="w-6 h-6"
-                fill="currentColor"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M24 4.557a9.83 9.83 0 0 1-2.828.775 4.932 4.932 0 0 0 2.165-2.724 9.864 9.864 0 0 1-3.127 1.195 4.92 4.92 0 0 0-8.384 4.482A13.978 13.978 0 0 1 1.671 3.149a4.92 4.92 0 0 0 1.523 6.573 4.903 4.903 0 0 1-2.229-.616c-.054 2.281 1.581 4.415 3.949 4.89a4.935 4.935 0 0 1-2.224.084 4.923 4.923 0 0 0 4.6 3.417A9.867 9.867 0 0 1 0 21.543a13.94 13.94 0 0 0 7.548 2.212c9.057 0 14.01-7.506 14.01-14.01 0-.213-.005-.425-.014-.636A10.025 10.025 0 0 0 24 4.557z"
-                />
-              </svg>
-            </a>
-            <a
-              href="https://www.instagram.com"
+              href="http://instagram.com/ardisan.guesthouse"
               target="_blank"
               class="text-gray-500 hover:text-gray-900 dark:hover:text-white"
             >
@@ -1479,22 +1112,7 @@
                 />
               </svg>
             </a>
-            <a
-              href="https://www.linkedin.com"
-              target="_blank"
-              class="text-gray-500 hover:text-gray-900 dark:hover:text-white"
-            >
-              <svg
-                class="w-6 h-6"
-                fill="currentColor"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M22.23 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.72V1.72C24 .77 23.21 0 22.23 0zM7.12 20.45H3.56V9h3.56v11.45zM5.34 7.58c-1.14 0-2.06-.93-2.06-2.08 0-1.15.92-2.08 2.06-2.08 1.14 0 2.06.93 2.06 2.08 0 1.15-.92 2.08-2.06 2.08zm15.11 12.87h-3.56v-5.6c0-1.34-.03-3.07-1.87-3.07-1.87 0-2.16 1.46-2.16 2.97v5.7h-3.56V9h3.42v1.56h.05c.48-.91 1.66-1.87 3.42-1.87 3.66 0 4.34 2.41 4.34 5.54v6.22z"
-                />
-              </svg>
-            </a>
+            
           </div>
         </div>
       </section>
