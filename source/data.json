@@ -1,0 +1,71 @@
+{
+    "logo" : "img/favicon.webp",
+    "title": "Stay Once, carry memories Forever",
+    "subtitle": "Nikmati ketenangan dengan kolam renang pribadi dan fasilitas eksklusif di Ardisan Guesthouse, tempat sempurna untuk liburan Anda.",
+    "phone": "6282221259022",
+    "slider": [
+        "img/slider/1.jpeg",
+        "img/slider/2.jpeg",
+        "img/slider/3.jpeg",
+        "img/slider/4.jpeg",
+        "img/slider/5.jpeg",
+        "img/slider/6.jpeg",
+        "img/slider/7.jpeg"
+    ],
+    "carousel": [
+        "img/carousel/1.jpeg",
+        "img/carousel/2.jpeg",
+        "img/carousel/3.jpeg",
+        "img/carousel/4.jpeg",
+        "img/carousel/5.jpeg"
+    ],
+    "ctaImage": "img/cta/1.jpeg",
+    "ctaImage2": "img/cta/2.jpeg",
+    "ctaTitle": "Nikmati Pengalaman Menginap yang Nyaman di Ardisan Guest House",
+    "ctaSubtitle": "Suasana hangat dan fasilitas lengkap untuk liburan atau perjalanan bisnis Anda.",
+    "ctaText": "Ardisan Guest House kami menawarkan kenyamanan seperti di rumah sendiri dengan kamar bersih, fasilitas modern, dan layanan ramah. Lokasi strategis memudahkan Anda untuk menjelajahi destinasi menarik di sekitar. Pesan sekarang dan rasakan sensasi menginap yang menyenangkan!",
+    "facilities": [
+        {
+            "text": "Smart TV With Netflix",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" class=\"size-6\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"m9 12.75 3 3m0 0 3-3m-3 3v-7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z\" /></svg>"
+        },
+        {
+            "text": "3 Kamar Tidur + AC",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" class=\"size-6\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"m9 12.75 3 3m0 0 3-3m-3 3v-7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z\" /></svg>"
+        },
+        {
+            "text": "2 Kamar Mandi Dalam",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" class=\"size-6\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"m9 12.75 3 3m0 0 3-3m-3 3v-7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z\" /></svg>"
+        },
+        {
+            "text": "1 Kamar Mandi Luar",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" class=\"size-6\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"m9 12.75 3 3m0 0 3-3m-3 3v-7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z\" /></svg>"
+        },
+        {
+            "text": "Water Heater",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" class=\"size-6\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"m9 12.75 3 3m0 0 3-3m-3 3v-7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z\" /></svg>"
+        },
+        {
+            "text": "Full Kitchen Set",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" class=\"size-6\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"m9 12.75 3 3m0 0 3-3m-3 3v-7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z\" /></svg>"
+        },
+        {
+            "text": "Private Pool",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" class=\"size-6\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"m9 12.75 3 3m0 0 3-3m-3 3v-7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z\" /></svg>"
+        },
+        {
+            "text": "Parkir Luas",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" class=\"size-6\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"m9 12.75 3 3m0 0 3-3m-3 3v-7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z\" /></svg>"
+        },
+        {
+            "text": "Wi-Fi",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" class=\"size-6\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"m9 12.75 3 3m0 0 3-3m-3 3v-7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z\" /></svg>"
+        },
+        {
+            "text": "Karaoke",
+            "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" class=\"size-6\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"m9 12.75 3 3m0 0 3-3m-3 3v-7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z\" /></svg>"
+        }
+    ]
+}
+
+

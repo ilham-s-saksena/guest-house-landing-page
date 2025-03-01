@@ -1,8 +1,11 @@
-const images = [
-    'img/1.jpg',
-    'img/2.jpg',
-    'img/3.jpg'
-  ];
+let images = [];
+
+fetch('/source/data.json')
+  .then(response => response.json())
+  .then(data => {
+    images = data.carousel
+  })
+
   const carousel = document.getElementById('carousel');
   let currentIndex = 0;
 
