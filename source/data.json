@@ -3,6 +3,7 @@
     "title": "Stay Once, carry memories Forever",
     "subtitle": "Nikmati ketenangan dengan kolam renang pribadi dan fasilitas eksklusif di Ardisan Guesthouse, tempat sempurna untuk liburan Anda.",
     "phone": "6282221259022",
+    "about": "Selamat datang di Ardisan Guesthouse, sebuah guesthouse dengan kolam renang pribadi yang terletak di Purwokerto. Kami menyediakan tempat yang sempurna bagi Anda yang ingin menikmati waktu berkualitas atau me time tanpa gangguan",
     "slider": [
         "img/slider/1.jpeg",
         "img/slider/2.jpeg",
@@ -64,6 +65,62 @@
         {
             "text": "Karaoke",
             "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" class=\"size-6\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"m9 12.75 3 3m0 0 3-3m-3 3v-7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z\" /></svg>"
+        }
+    ],
+    "pricing": [
+        {
+            "text": "Sewa 24 Jam",
+            "price": "Rp. 1.700.000"
+        },
+        {
+            "text": "Sewa 6 Jam",
+            "price": "Rp. 600.000"
+        },
+        {
+            "text": "Extra Bed",
+            "price": "Rp. 100.000/Bed"
+        }
+    ],
+    "whyUs": [
+        {
+            "emoticon": "💦",
+            "title": "Private Pool",
+            "text": "Nikmati kesegaran dan privasi maksimal dengan kolam renang pribadi yang selalu terjaga kebersihannya, sempurna untuk bersantai bersama keluarga atau teman-teman."
+        },
+        {
+            "emoticon": "📍",
+            "title": "Lokasi Strategis",
+            "text": "Terletak di Purwokerto, Guesthouse kami mudah diakses dari berbagai destinasi menarik dan pusat kota, memudahkan Anda untuk berwisata atau berbisnis."
+        },
+        {
+            "emoticon": "💼",
+            "title": "Pelayanan Profesional",
+            "text": "Tim kami selalu siap membantu Anda dengan pelayanan ramah dan profesional, memastikan semua kebutuhan Anda terpenuhi selama menginap."
+        },
+        {
+            "emoticon": "🍳",
+            "title": "Fasilitas Lengkap",
+            "text": "Dari dapur lengkap hingga Wi-Fi gratis, kami menyediakan berbagai fasilitas untuk mendukung kebutuhan Anda, baik untuk liburan maupun perjalanan bisnis."
+        }
+    ],
+    "faq": [
+        {
+            "question": "What is Flowbite?",
+            "answer": "Flowbite is an open-source library of interactive components built on top of Tailwind CSS including buttons, dropdowns, modals, navbars, and more. Check out this guide to learn how to get started and start developing websites even faster with components on top of Tailwind CSS.",
+            "linkText": "get started",
+            "linkUrl": "/docs/getting-started/introduction/"
+        },
+        {
+            "question": "Is there a Figma file available?",
+            "answer": "Flowbite is first conceptualized and designed using the Figma software so everything you see in the library has a design equivalent in our Figma file. Check out the Figma design system based on the utility classes from Tailwind CSS and components from Flowbite.",
+            "linkText": "Figma design system",
+            "linkUrl": "https://flowbite.com/figma/"
+        },
+        {
+            "question": "What are the differences between Flowbite and Tailwind UI?",
+            "answer": "The main difference is that the core components from Flowbite are open source under the MIT license, whereas Tailwind UI is a paid product. Another difference is that Flowbite relies on smaller and standalone components, whereas Tailwind UI offers sections of pages.",
+            "linkText": "Learn more about these technologies",
+            "linkUrl": "https://tailwindui.com/"
         }
     ]
 }
