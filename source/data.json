@@ -1,7 +1,7 @@
 {
     "logo" : "img/favicon.webp",
     "title": "Stay Once, carry memories Forever",
-    "subtitle": "Nikmati ketenangan dengan kolam renang pribadi dan fasilitas eksklusif di Ardisan Guesthouse, tempat sempurna untuk liburan Anda.",
+    "subtitle": "Nikmati ketenangan dengan kolam renang pribadi dan fasilitas eksklusif di Ardisan Guesthouse Purwokerto, tempat sempurna untuk liburan Anda.",
     "phone": "6282221259022",
     "about": "Selamat datang di Ardisan Guesthouse, sebuah guesthouse dengan kolam renang pribadi yang terletak di Purwokerto. Kami menyediakan tempat yang sempurna bagi Anda yang ingin menikmati waktu berkualitas atau me time tanpa gangguan",
     "slider": [
@@ -25,7 +25,7 @@
     ],
     "ctaImage": "img/cta/1.jpeg",
     "ctaImage2": "img/cta/2.jpeg",
-    "ctaTitle": "Nikmati Pengalaman Menginap yang Nyaman di Ardisan Guest House",
+    "ctaTitle": "Nikmati Pengalaman Menginap yang Nyaman di Ardisan Guest House Purwokerto",
     "ctaSubtitle": "Suasana hangat dan fasilitas lengkap untuk liburan atau perjalanan bisnis Anda.",
     "ctaText": "Ardisan Guest House kami menawarkan kenyamanan seperti di rumah sendiri dengan kamar bersih, fasilitas modern, dan layanan ramah. Lokasi strategis memudahkan Anda untuk menjelajahi destinasi menarik di sekitar. Pesan sekarang dan rasakan sensasi menginap yang menyenangkan!",
     "facilities": [
@@ -73,15 +73,18 @@
     "pricing": [
         {
             "text": "Sewa 24 Jam",
-            "price": "Rp. 1.700.000"
+            "price": "Rp. 1.700.000",
+            "normalPrice": "Rp. 2.000.000"
         },
         {
-            "text": "Sewa 6 Jam",
-            "price": "Rp. 600.000"
+            "text": "Sewa 5 Jam",
+            "price": "Rp. 600.000",
+            "normalPrice": null
         },
         {
             "text": "Extra Bed",
-            "price": "Rp. 100.000/Bed"
+            "price": "Rp. 100.000/Bed",
+            "normalPrice": "Rp. 150.000"
         }
     ],
     "whyUs": [

@@ -303,24 +303,16 @@
           ></div>
           <div class="max-w-xl z-10 relative lg:pb-36 pb-72 mt-5">
             <!-- Title akan diisi oleh JavaScript -->
-            <h1 id="title"
-              class="text-white text-center lg:text-left text-3xl lg:text-7xl font-extrabold mb-5"
-            >
-              
-            </h1>
+            <h1 id="title" class="text-white text-center lg:text-left text-3xl lg:text-7xl font-extrabold mb-5"></h1>
             <!-- Subtitle akan diisi oleh JavaScript -->
-            <p id="subtitle"
-              class="text-white text-sm lg:text-md text-center lg:text-left mb-8 "
-            >
-              
-            </p>
+            <p id="subtitle" class="text-white text-sm lg:text-md text-center lg:text-left sm:mb-8 -mb-8"></p>
+            
             <button
               type="button"
               data-modal-target="default-modal"
               data-modal-toggle="default-modal"
-              class="cursor-zoom-in p-4 h-32 lg:h-40 bg-white absolute max-w-xl w-full bottom-10 lg:-bottom-5 left-0 rounded-xl"
-            >
-              <div id="scroll-container" class="w-full h-full overflow-scroll flex space-x-3"></div>
+              class="cursor-zoom-in p-4 h-32 lg:h-40 bg-white absolute max-w-xl w-full bottom-20 lg:-bottom-10 left-0 rounded-xl">
+                <div id="scroll-container" class="w-full h-full overflow-scroll flex space-x-1"></div>
             </button>
           </div>
         </div>
@@ -574,8 +566,9 @@
             <li
               class="package-item rounded-xl shadow-lg pb-3 flex flex-col items-center text-center transition-all duration-300 bg-white"
             >
-              <div class="w-full h-80 bg-cover bg-center rounded-xl" style="background-image: url('img/cta/3.jpeg');" ></div>
+              <div class="w-full h-80 bg-cover bg-center rounded-xl" style="background-image: url('img/price.jpeg');" ></div>
               <h2 class="text-2xl text-center font-bold mt-5 mb-3" id="priceTitle1"></h2>
+              <span class="text-lg font-semibold text-red-600 line-through" id="normalPrice1"></span>
               <h3 class="mb-3">
                 <span class="text-2xl font-bold" id="price1"></span>
               </h3>
@@ -589,8 +582,9 @@
             <li
               class="package-item rounded-xl shadow-lg pb-3 flex flex-col items-center text-center transition-all duration-300"
             >
-              <div class="w-full h-80 bg-cover bg-center rounded-xl" style="background-image: url('img/cta/4.jpeg');" ></div>
+              <div class="w-full h-80 bg-cover bg-center rounded-xl" style="background-image: url('img/price.jpeg');" ></div>
               <h2 class="text-xl text-center font-bold mt-5 mb-3" id="priceTitle2"></h2>
+              <span class="text-lg font-semibold text-red-600 line-through" id="normalPrice2"></span>
               <h3 class="mb-3">
                 <span class="text-2xl font-bold" id="price2"></span>
               </h3>
@@ -604,8 +598,9 @@
             <li
               class="package-item rounded-xl shadow-lg pb-3 flex flex-col items-center text-center transition-all duration-300"
             >
-              <div class="w-full h-80 bg-cover bg-center rounded-xl" style="background-image: url('img/cta/5.jpeg');" ></div>
+              <div class="w-full h-80 bg-cover bg-center rounded-xl" style="background-image: url('img/price.jpeg');" ></div>
               <h2 class="text-xl text-center font-bold mt-5 mb-3" id="priceTitle3"></h2>
+              <span class="text-lg font-semibold text-red-600 line-through" id="normalPrice3"></span>
               <h3 class="mb-3">
                 <span class="text-2xl font-bold" id="price3"></span>
               </h3>
@@ -680,7 +675,8 @@
           </div>
         </div>
       </section>
-      <section class="bg-white py-8 hidden md:block">
+
+      <section class="bg-white py-8">
         <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
           <div class="mx-auto max-w-screen-sm text-center pb-8">
             <h2
@@ -719,7 +715,7 @@
                           Ardisan Guest House
                         </p>
                       </div>
-                      <div class="text-gray-500 text-lg italic mb-4">
+                      <div class="text-gray-500 text-sm sm:text-lg italic mb-4">
                         <svg
                           class="w-6 h-6 text-gray-400 mr-2 mb-3"
                           xmlns="http://www.w3.org/2000/svg"
@@ -758,7 +754,7 @@
                           </p>
                         </div>
                       </div>
-                      <div class="text-gray-500 text-lg italic mb-4">
+                      <div class="text-gray-500 text-sm sm:text-lg italic mb-4">
                         <svg
                           class="w-6 h-6 text-gray-400 mr-2 mb-3"
                           xmlns="http://www.w3.org/2000/svg"
@@ -772,6 +768,44 @@
                     </div>
                   </div>
                 </div>
+                <!-- Slide 3 -->
+                <div class="w-full flex-shrink-0">
+                  <div
+                    class="relative flex justify-center items-center space-x-8"
+                  >
+                    <!-- Image Section -->
+                    <div class="w-full md:w-1/2">
+                      <img
+                        src="img/others/homecare.jpeg"
+                        alt="Traveler's Review"
+                        class="rounded-lg shadow-md"
+                      />
+                    </div>
+                    <!-- Review Section -->
+                    <div class="w-full md:w-1/2">
+                      <div class="flex items-center space-x-4">
+                        <div>
+                          <h3 class="text-lg font-semibold">Ardisan X Klinik Watumas</h3>
+                          <p class="text-gray-500 text-sm">
+                            Adds On Home Care
+                          </p>
+                        </div>
+                      </div>
+                      <div class="text-gray-500 text-sm sm:text-lg italic mb-4">
+                        <svg
+                          class="w-6 h-6 text-gray-400 mr-2 mb-3"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="currentColor"
+                          viewBox="0 0 20 20"
+                        >
+                          <path d="M10 18l-6-6h12l-6 6zM2 9h16V7H2v2z" />
+                        </svg>
+                        Liburan Maksimal Sehat Optimal dengan Layanan Home Care kolaborasi antara Klinik Watumas Purwokerto dengan Ardisan Guest House Purwokerto!
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
               </div>
             </div>
           </div>
@@ -815,123 +849,6 @@
                 />
               </svg>
             </button>
-          </div>
-        </div>
-      </section>
-
-      <section class="bg-white py-8 block lg:hidden">
-        <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
-          <div class="mx-auto max-w-screen-sm text-center pb-8">
-            <h2
-              class="mb-4 text-4xl tracking-tight font-extrabold leading-tight text-gray-900 dark:text-white"
-            >
-              See Satisfied Traveler Reviews
-            </h2>
-          </div>
-          <div class="swiper-container overflow-hidden">
-            <div class="swiper-wrapper">
-              <!-- Slide 1 -->
-              <div class="swiper-slide">
-                <div class="relative flex flex-col items-start space-y-4">
-                  <img
-                    src="img/4.jpg"
-                    alt="Traveler's Review"
-                    class="rounded-lg shadow-md w-full"
-                  />
-                  <div class="text-gray-500 text-lg italic mb-4">
-                    <svg
-                      class="w-6 h-6 text-gray-400 mr-2 mb-3"
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="currentColor"
-                      viewBox="0 0 20 20"
-                    >
-                      <path d="M10 18l-6-6h12l-6 6zM2 9h16V7H2v2z" />
-                    </svg>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. At
-                    aliquet at purus a elementum sem enim quis vestibulum.
-                  </div>
-                  <div class="flex items-center space-x-4">
-                    <img
-                      src="img/2.jpg"
-                      alt="Reviewer"
-                      class="w-12 h-12 rounded-full"
-                    />
-                    <div>
-                      <h3 class="text-lg font-semibold">
-                        Jaxson Passaquindici
-                      </h3>
-                      <p class="text-gray-500 text-sm">Satisfied Traveler</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- Slide 2 -->
-              <div class="swiper-slide">
-                <div class="relative flex flex-col items-start space-y-4">
-                  <img
-                    src="img/5.jpg"
-                    alt="Traveler's Review"
-                    class="rounded-lg shadow-md w-full"
-                  />
-                  <div class="text-gray-500 text-lg italic mb-4">
-                    <svg
-                      class="w-6 h-6 text-gray-400 mr-2 mb-3"
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="currentColor"
-                      viewBox="0 0 20 20"
-                    >
-                      <path d="M10 18l-6-6h12l-6 6zM2 9h16V7H2v2z" />
-                    </svg>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. At
-                    aliquet at purus a elementum sem enim quis vestibulum.
-                  </div>
-                  <div class="flex items-center space-x-4">
-                    <img
-                      src="img/3.jpg"
-                      alt="Reviewer"
-                      class="w-12 h-12 rounded-full"
-                    />
-                    <div>
-                      <h3 class="text-lg font-semibold">Alex Johnson</h3>
-                      <p class="text-gray-500 text-sm">Satisfied Traveler</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- Slide 3 -->
-              <div class="swiper-slide">
-                <div class="relative flex flex-col items-start space-y-4">
-                  <img
-                    src="img/2.jpg"
-                    alt="Traveler's Review"
-                    class="rounded-lg shadow-md w-full"
-                  />
-                  <div class="text-gray-500 text-lg italic mb-4">
-                    <svg
-                      class="w-6 h-6 text-gray-400 mr-2 mb-3"
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="currentColor"
-                      viewBox="0 0 20 20"
-                    >
-                      <path d="M10 18l-6-6h12l-6 6zM2 9h16V7H2v2z" />
-                    </svg>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. At
-                    aliquet at purus a elementum sem enim quis vestibulum.
-                  </div>
-                  <div class="flex items-center space-x-4">
-                    <img
-                      src="img/3.jpg"
-                      alt="Reviewer"
-                      class="w-12 h-12 rounded-full"
-                    />
-                    <div>
-                      <h3 class="text-lg font-semibold">Alex Johnson</h3>
-                      <p class="text-gray-500 text-sm">Satisfied Traveler</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </section>
@@ -1067,6 +984,59 @@
               </p>
             </div>
           </div>
+        </div>
+      </section>
+
+      <section class="bg-primary-700 py-8 shadow-lg shadow-inner">
+        <div class="p-6 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
+          <!-- Header Section -->
+          <div class="text-center mb-8">
+            <h2
+              class="mb-4 text-4xl tracking-tight font-extrabold leading-tight text-white dark:text-white"
+            >
+              See Our Gallery
+            </h2>
+
+            <!-- Content Section -->
+            
+          </div>
+
+          <div class="hidden sm:grid grid-cols-3 gap-2">
+            <div class="grid gap-2">
+              <div class="hover:scale-105 transition-all w-full h-56 bg-center bg-cover rounded-lg" style="background-image: url('img/gallery/5.jpeg');"></div>
+              <div class="hover:scale-105 transition-all w-full h-96 bg-center bg-cover rounded-lg" style="background-image: url('img/gallery/1.jpeg');"></div>
+              <div class="hover:scale-105 transition-all w-full h-96 bg-center bg-cover rounded-lg" style="background-image: url('img/gallery/2.jpeg');"></div>
+          </div>
+          <div class="grid gap-2">
+            <div class="hover:scale-105 transition-all w-full h-96 bg-center bg-cover rounded-lg" style="background-image: url('img/gallery/3.jpeg');"></div>
+            <div class="hover:scale-105 transition-all w-full h-56 bg-center bg-cover rounded-lg" style="background-image: url('img/gallery/8.jpeg');"></div>
+              <div class="hover:scale-105 transition-all w-full h-96 bg-center bg-cover rounded-lg" style="background-image: url('img/gallery/6.jpeg');"></div>
+          </div>
+          <div class="grid gap-2">
+              <div class="hover:scale-105 transition-all w-full h-96 bg-center bg-cover rounded-lg" style="background-image: url('img/gallery/9.jpeg');"></div>
+              <div class="hover:scale-105 transition-all w-full h-96 bg-center bg-cover rounded-lg" style="background-image: url('img/gallery/4.jpeg');"></div>
+              <div class="hover:scale-105 transition-all w-full h-56 bg-center bg-cover rounded-lg" style="background-image: url('img/gallery/7.jpeg');"></div>
+          </div>  
+          </div>
+
+          <div class="sm:hidden grid grid-cols-2 gap-2">
+            <div class="grid gap-2">
+              <div class="hover:scale-105 transition-all w-full h-56 bg-center bg-cover rounded-lg" style="background-image: url('img/gallery/5.jpeg');"></div>
+              <div class="hover:scale-105 transition-all w-full h-72 bg-center bg-cover rounded-lg" style="background-image: url('img/gallery/1.jpeg');"></div>
+              <div class="hover:scale-105 transition-all w-full h-72 bg-center bg-cover rounded-lg" style="background-image: url('img/gallery/2.jpeg');"></div>
+          </div>
+          <div class="grid gap-2">
+            <div class="hover:scale-105 transition-all w-full h-72 bg-center bg-cover rounded-lg" style="background-image: url('img/gallery/3.jpeg');"></div>
+            <div class="hover:scale-105 transition-all w-full h-56 bg-center bg-cover rounded-lg" style="background-image: url('img/gallery/8.jpeg');"></div>
+              <div class="hover:scale-105 transition-all w-full h-72 bg-center bg-cover rounded-lg" style="background-image: url('img/gallery/6.jpeg');"></div>
+          </div>
+          <div class="grid gap-2 col-span-2">
+              <div class="hover:scale-105 transition-all w-full h-72 bg-center bg-cover rounded-lg" style="background-image: url('img/gallery/9.jpeg');"></div>
+              <div class="hover:scale-105 transition-all w-full h-72 bg-center bg-cover rounded-lg" style="background-image: url('img/gallery/4.jpeg');"></div>
+              <div class="hover:scale-105 transition-all w-full h-56 bg-center bg-cover rounded-lg" style="background-image: url('img/gallery/7.jpeg');"></div>
+          </div>  
+          </div>
+          
         </div>
       </section>
 
