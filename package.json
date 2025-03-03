@@ -15,6 +15,7 @@
   "scripts": {
     "watch:css"	: "postcss -i lib/main.css -o dist/main.css --watch",
     "start": "concurrently \"npm run watch:css\" \"live-server --watch=index.html\"",
+    "build": "tailwindcss -i lib/main.css -o dist/main.css --minify",
     "deploy": ""
   },
   "keywords": [],
