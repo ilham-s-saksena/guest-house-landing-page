@@ -1,9 +1,9 @@
 {
     "logo" : "img/favicon.webp",
-    "title": "Stay Once, carry memories Forever",
-    "subtitle": "Nikmati ketenangan dengan kolam renang pribadi dan fasilitas eksklusif di Ardisan Guesthouse Purwokerto, tempat sempurna untuk liburan Anda.",
+    "title": "Holiday is Everyday",
+    "subtitle": "Enjoy the tranquility with a private pool and exclusive facilities at Ardisan Guesthouse Purwokerto, the perfect place for your vacation.",
     "phone": "6282221259022",
-    "about": "Selamat datang di Ardisan Guesthouse, sebuah guesthouse dengan kolam renang pribadi yang terletak di Purwokerto. Kami menyediakan tempat yang sempurna bagi Anda yang ingin menikmati waktu berkualitas atau me time tanpa gangguan",
+    "about": "Welcome to Ardisan Guesthouse, a guesthouse with a private pool located in Purwokerto. We provide the perfect place for you who want to enjoy quality time or me time without any disturbance.",
     "slider": [
         "img/slider/1.jpeg",
         "img/slider/2.jpeg",
@@ -24,25 +24,25 @@
         "img/carousel/5.jpeg"
     ],
     "ctaImage": "img/cta/1.jpeg",
-    "ctaImage2": "img/cta/2.jpeg",
-    "ctaTitle": "Nikmati Pengalaman Menginap yang Nyaman di Ardisan Guest House Purwokerto",
-    "ctaSubtitle": "Suasana hangat dan fasilitas lengkap untuk liburan atau perjalanan bisnis Anda.",
-    "ctaText": "Ardisan Guest House kami menawarkan kenyamanan seperti di rumah sendiri dengan kamar bersih, fasilitas modern, dan layanan ramah. Lokasi strategis memudahkan Anda untuk menjelajahi destinasi menarik di sekitar. Pesan sekarang dan rasakan sensasi menginap yang menyenangkan!",
+    "ctaImage2": "img/cta/4.jpeg",
+    "ctaTitle": "Enjoy a Comfortable Stay Experience at Ardisan Guest House Purwokerto",
+    "ctaSubtitle": "Warm atmosphere and complete facilities for your vacation or business trip.",
+    "ctaText": "Our Ardisan Guest House offers the comfort of home with clean rooms, modern facilities, and friendly service. The strategic location makes it easy for you to explore interesting destinations around. Book now and experience a pleasant stay!",
     "facilities": [
         {
             "text": "Smart TV With Netflix",
             "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" class=\"size-6\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"m4.5 12.75 6 6 9-13.5\" /></svg>"
         },
         {
-            "text": "3 Kamar Tidur + AC",
+            "text": "3 Bedrooms With AC",
             "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" class=\"size-6\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"m4.5 12.75 6 6 9-13.5\" /></svg>"
         },
         {
-            "text": "2 Kamar Mandi Dalam",
+            "text": "2 En-suite Bathrooms",
             "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" class=\"size-6\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"m4.5 12.75 6 6 9-13.5\" /></svg>"
         },
         {
-            "text": "1 Kamar Mandi Luar",
+            "text": "1 Outside Bathroom",
             "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" class=\"size-6\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"m4.5 12.75 6 6 9-13.5\" /></svg>"
         },
         {
@@ -58,7 +58,7 @@
             "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" class=\"size-6\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"m4.5 12.75 6 6 9-13.5\" /></svg>"
         },
         {
-            "text": "Parkir Luas",
+            "text": "Spacious Parking",
             "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke-width=\"1.5\" stroke=\"currentColor\" class=\"size-6\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"m4.5 12.75 6 6 9-13.5\" /></svg>"
         },
         {
@@ -72,17 +72,17 @@
     ],
     "pricing": [
         {
-            "text": "Sewa 24 Jam",
+            "text": "24 Hours Stay",
             "price": "Rp. 1.700.000",
             "normalPrice": "Rp. 2.000.000"
         },
         {
-            "text": "Sewa 5 Jam",
+            "text": "5 Hours Stay",
             "price": "Rp. 600.000",
             "normalPrice": null
         },
         {
-            "text": "Extra Bed",
+            "text": "Adds On",
             "price": "Rp. 100.000/Bed",
             "normalPrice": "Rp. 150.000"
         }
@@ -91,42 +91,22 @@
         {
             "emoticon": "💦",
             "title": "Private Pool",
-            "text": "Nikmati kesegaran dan privasi maksimal dengan kolam renang pribadi yang selalu terjaga kebersihannya, sempurna untuk bersantai bersama keluarga atau teman-teman."
+            "text": "Enjoy maximum freshness and privacy with a private swimming pool that is always kept clean, perfect for relaxing with family or friends."
         },
         {
             "emoticon": "📍",
             "title": "Lokasi Strategis",
-            "text": "Terletak di Purwokerto, Guesthouse kami mudah diakses dari berbagai destinasi menarik dan pusat kota, memudahkan Anda untuk berwisata atau berbisnis."
+            "text": "Located in Purwokerto, our Guesthouse is easily accessible from various interesting destinations and the city center, making it easy for you to travel or do business."
         },
         {
             "emoticon": "💼",
             "title": "Pelayanan Profesional",
-            "text": "Tim kami selalu siap membantu Anda dengan pelayanan ramah dan profesional, memastikan semua kebutuhan Anda terpenuhi selama menginap."
+            "text": "Our team is always ready to assist you with friendly and professional service, ensuring all your needs are met during your stay."
         },
         {
             "emoticon": "🍳",
             "title": "Fasilitas Lengkap",
-            "text": "Dari dapur lengkap hingga Wi-Fi gratis, kami menyediakan berbagai fasilitas untuk mendukung kebutuhan Anda, baik untuk liburan maupun perjalanan bisnis."
-        }
-    ],
-    "faq": [
-        {
-            "question": "What is Flowbite?",
-            "answer": "Flowbite is an open-source library of interactive components built on top of Tailwind CSS including buttons, dropdowns, modals, navbars, and more. Check out this guide to learn how to get started and start developing websites even faster with components on top of Tailwind CSS.",
-            "linkText": "get started",
-            "linkUrl": "/docs/getting-started/introduction/"
-        },
-        {
-            "question": "Is there a Figma file available?",
-            "answer": "Flowbite is first conceptualized and designed using the Figma software so everything you see in the library has a design equivalent in our Figma file. Check out the Figma design system based on the utility classes from Tailwind CSS and components from Flowbite.",
-            "linkText": "Figma design system",
-            "linkUrl": "https://flowbite.com/figma/"
-        },
-        {
-            "question": "What are the differences between Flowbite and Tailwind UI?",
-            "answer": "The main difference is that the core components from Flowbite are open source under the MIT license, whereas Tailwind UI is a paid product. Another difference is that Flowbite relies on smaller and standalone components, whereas Tailwind UI offers sections of pages.",
-            "linkText": "Learn more about these technologies",
-            "linkUrl": "https://tailwindui.com/"
+            "text": "From fully equipped kitchens to free Wi-Fi, we provide a variety of amenities to support your needs, whether for vacation or business trips."
         }
     ]
 }

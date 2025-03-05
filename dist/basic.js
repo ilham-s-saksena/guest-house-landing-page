@@ -1,33 +1,41 @@
+// Menghindari redeclaration dengan menggunakan let
 let images = [];
 
+// Mengambil data dari JSON dan menyimpannya dalam array images
 fetch('/source/data.json')
   .then(response => response.json())
   .then(data => {
-    images = data.carousel
-  })
+    images = data.carousel;
+  });
 
-  const carousel = document.getElementById('carousel');
-  let currentIndex = 0;
+// Menghindari deklarasi ganda
+let carouselSlide = document.getElementById('carousel'); // Gunakan let, bukan const
+let imageIndex = 0; // Ganti nama variabel untuk menghindari konflik
 
-  function changeBackground() {
-    carousel.classList.add('fade-out');
+function changeBackground() {
+    carouselSlide.classList.add('fade-out');
     setTimeout(() => {
-      currentIndex = (currentIndex + 1) % images.length;
-      carousel.style.backgroundImage = `url('${images[currentIndex]}')`;
-      carousel.classList.remove('fade-out');
+        imageIndex = (imageIndex + 1) % images.length;
+        carouselSlide.style.backgroundImage = `url('${images[imageIndex]}')`;
+        carouselSlide.classList.remove('fade-out');
     }, 400);
-  }
-  setInterval(changeBackground, 3000);
+}
 
-  const scrollContainer = document.getElementById('scroll-container');
-  scrollContainer.innerHTML += scrollContainer.innerHTML;
-  let scrollAmount = 0;
-  function autoScroll() {
+// Mengatur interval perubahan gambar setiap 3 detik
+setInterval(changeBackground, 3000);
+
+// Auto-scroll untuk kontainer scroll-container
+let scrollContainer = document.getElementById('scroll-container'); // Gunakan let, bukan const
+scrollContainer.innerHTML += scrollContainer.innerHTML;
+let scrollAmount = 0;
+
+function autoScroll() {
     scrollAmount += 1;
     scrollContainer.scrollLeft = scrollAmount;
     if (scrollAmount >= scrollContainer.scrollWidth / 2) {
-      scrollAmount = 0;
+        scrollAmount = 0;
     }
     requestAnimationFrame(autoScroll);
-  }
-  autoScroll();
+}
+
+autoScroll();
