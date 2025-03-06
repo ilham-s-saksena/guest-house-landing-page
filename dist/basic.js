@@ -18,7 +18,7 @@ function changeBackground() {
         imageIndex = (imageIndex + 1) % images.length;
         carouselSlide.style.backgroundImage = `url('${images[imageIndex]}')`;
         carouselSlide.classList.remove('fade-out');
-    }, 400);
+    }, 1000);
 }
 
 // Mengatur interval perubahan gambar setiap 3 detik
